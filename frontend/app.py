@@ -36,7 +36,7 @@ initialize_session_state()
 st.set_page_config(layout="wide")
 
 # Tabs navigation
-title = st.header("ARGUS: Automated Retrieval and GPT Understanding System")
+title = st.header("SOS ODI")
 tabs = st.tabs(["🧠 Process Files", "🔎 Explore Data", "🖥️ Instructions"])
 
 # Render the tabs

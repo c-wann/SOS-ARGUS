@@ -1,0 +1,160 @@
+{
+  "Version": "2.3",
+  "Transaction": {
+    "Id": "06eab3e7-9591-45f4-8711-8666cc154b78",
+    "SkillId": "f651e452-2f28-4c26-aace-d363934a442f",
+    "SkillName": "Zuru Multi Supplier Invoice Process skill",
+    "Documents": [
+      {
+        "Id": "7bc74d6b-aedc-4ed5-8c08-53f11b0c3f66",
+        "ExtractedData": {
+          "DocumentDefinition": {
+            "RootConcept": {
+              "Id": "root",
+              "Name": "European Invoice",
+              "Fields": [
+                {
+                  "Id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_21",
+                  "Name": "Business Unit",
+                  "Type": "Concept",
+                  "ValueConcepts": [
+                    {
+                      "Id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_21",
+                      "Name": "",
+                      "Fields": [
+                        {
+                          "Id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_21_15",
+                          "Name": "Company Name",
+                          "Type": "String",
+                          "Cardinality": {
+                            "Min": 0,
+                            "Max": 1
+                          }
+                        },
+                        {
+                          "Id": "606187d4-983b-48ce-838d-e2c8c7797d0d",
+                          "Name": "Entity Code",
+                          "Type": "String",
+                          "Cardinality": {
+                            "Min": 0,
+                            "Max": 1
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "Cardinality": {
+                    "Min": 0,
+                    "Max": 1
+                  }
+                },
+                {
+                  "Id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_41",
+                  "Name": "Currency",
+                  "Type": "String",
+                  "Cardinality": {
+                    "Min": 0,
+                    "Max": 1
+                  }
+                },
+                {
+                  "Id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_36",
+                  "Name": "External Service Number",
+                  "Type": "String",
+                  "Cardinality": {
+                    "Min": 0,
+                    "Max": 1
+                  }
+                },
+                {
+                  "Id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_37",
+                  "Name": "Invoice Date",
+                  "Type": "ISODate",
+                  "Cardinality": {
+                    "Min": 0,
+                    "Max": 1
+                  }
+                },
+                {
+                  "Id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53",
+                  "Name": "Invoice Line",
+                  "Type": "Concept",
+                  "ValueConcepts": [
+                    {
+                      "Id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53",
+                      "Name": "",
+                      "Fields": [
+                        {
+                          "Id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53_7",
+                          "Name": "Amount",
+                          "Type": "Decimal",
+                          "Cardinality": {
+                            "Min": 0,
+                            "Max": 1
+                          }
+                        },
+                        {
+                          "Id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53_9",
+                          "Name": "Short Text",
+                          "Type": "String",
+                          "Cardinality": {
+                            "Min": 0,
+                            "Max": 1
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "Cardinality": {
+                    "Min": 0,
+                    "Max": -1
+                  }
+                },
+                {
+                  "Id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_40",
+                  "Name": "Total Amount",
+                  "Type": "Decimal",
+                  "Cardinality": {
+                    "Min": 0,
+                    "Max": 1
+                  }
+                },
+                {
+                  "Id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_22",
+                  "Name": "Vendor",
+                  "Type": "Concept",
+                  "ValueConcepts": [
+                    {
+                      "Id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_22",
+                      "Name": "",
+                      "Fields": [
+                        {
+                          "Id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_22_10",
+                          "Name": "Country",
+                          "Type": "String",
+                          "Cardinality": {
+                            "Min": 0,
+                            "Max": 1
+                          }
+                        },
+                        {
+                          "Id": "242bbf31-705f-4cad-a5ff-4aff5bea9dfe",
+                          "Name": "Vendor_Train",
+                          "Type": "String",
+                          "Cardinality": {
+                            "Min": 0,
+                            "Max": 1
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}

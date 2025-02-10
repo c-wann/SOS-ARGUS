@@ -1,0 +1,282 @@
+{
+  "Version": "2.3",
+  "Transaction": {
+    "Id": "7283ccde-9490-48e5-b0be-ecdca10ec587",
+    "SkillId": "f651e452-2f28-4c26-aace-d363934a442f",
+    "SkillName": "Zuru Multi Supplier Invoice Process skill",
+    "Documents": [
+      {
+        "Id": "4cec4055-8f6e-4d09-bd6e-8ee48647095f",
+        "ExtractedData": {
+          "DocumentDefinition": {
+            "RootConcept": {
+              "Id": "root",
+              "Name": "Invoice",
+              "Fields": [
+                {
+                  "Id": "InvoiceHeader",
+                  "Name": "Invoice Details",
+                  "Fields": [
+                    {
+                      "Name": "From",
+                      "Value": "Amazon Advertising LLC, PO Box 24651, Seattle WA 98124-0651, Tax Number: 91-2000471"
+                    },
+                    {
+                      "Name": "To",
+                      "Value": "ZURU INC, Room 1202, 12th Floor Energy Plaza, 92 Granville Road, TST East, Kowloon, Hong Kong"
+                    },
+                    {
+                      "Name": "Invoice Number",
+                      "Value": "TRW67Y8G4-343"
+                    },
+                    {
+                      "Name": "Invoice Date",
+                      "Value": "2024-12-02"
+                    },
+                    {
+                      "Name": "Invoice Period",
+                      "Value": "2024-11-01 to 2024-11-30"
+                    },
+                    {
+                      "Name": "Due Date",
+                      "Value": "2025-01-01"
+                    },
+                    {
+                      "Name": "Billed Amount Due",
+                      "Value": "332,680.31 USD"
+                    },
+                    {
+                      "Name": "Invoice Currency",
+                      "Value": "USD"
+                    },
+                    {
+                      "Name": "Payment Method",
+                      "Value": "Invoice"
+                    },
+                    {
+                      "Name": "Payment Terms",
+                      "Value": "Net 30"
+                    }
+                  ]
+                },
+                {
+                  "Id": "SummaryPortfolioCharges",
+                  "Name": "Summary of Portfolio Charges",
+                  "Fields": [
+                    {
+                      "Name": "Mini Brands",
+                      "Value": "122,270.04 USD"
+                    },
+                    {
+                      "Name": "Other Fees and Adjustments",
+                      "Value": "77,789.59 USD"
+                    },
+                    {
+                      "Name": "X-Shot",
+                      "Value": "39,710.46 USD"
+                    },
+                    {
+                      "Name": "Rainbocorns",
+                      "Value": "28,683.48 USD"
+                    },
+                    {
+                      "Name": "Smashers",
+                      "Value": "31,916.39 USD"
+                    },
+                    {
+                      "Name": "Pets Alive",
+                      "Value": "1,538.20 USD"
+                    },
+                    {
+                      "Name": "Snackles",
+                      "Value": "21,204.30 USD"
+                    },
+                    {
+                      "Name": "Robo Alive Jr.",
+                      "Value": "4,807.17 USD"
+                    },
+                    {
+                      "Name": "5 Surprise",
+                      "Value": "4,354.37 USD"
+                    },
+                    {
+                      "Name": "Anime Pop",
+                      "Value": "1,042.09 USD"
+                    },
+                    {
+                      "Name": "Total Amount",
+                      "Value": "333,316.09 USD"
+                    }
+                  ]
+                },
+                {
+                  "Id": "RegulatoryFees",
+                  "Name": "Regulatory Fees",
+                  "Fields": [
+                    {
+                      "Name": "Italy",
+                      "Value": "2.10 USD"
+                    },
+                    {
+                      "Name": "United Kingdom",
+                      "Value": "2.46 USD"
+                    },
+                    {
+                      "Name": "France",
+                      "Value": "1.71 USD"
+                    },
+                    {
+                      "Name": "CA",
+                      "Value": "24.67 USD"
+                    },
+                    {
+                      "Name": "Spain",
+                      "Value": "2.85 USD"
+                    },
+                    {
+                      "Name": "Regulatory Fees Total",
+                      "Value": "33.79 USD"
+                    }
+                  ]
+                },
+                {
+                  "Id": "Promotions",
+                  "Name": "Promotions",
+                  "Fields": [
+                    {
+                      "Name": "Q424 GGS ASIN Promotion",
+                      "Value": "-250.00 USD"
+                    },
+                    {
+                      "Name": "Invalid Clicks",
+                      "Value": "-419.57 USD"
+                    },
+                    {
+                      "Name": "Total Promotions",
+                      "Value": "-669.57 USD"
+                    }
+                  ]
+                },
+                {
+                  "Id": "Totals",
+                  "Name": "Invoice Totals",
+                  "Fields": [
+                    {
+                      "Name": "Total Campaign Charges",
+                      "Value": "333,316.09 USD"
+                    },
+                    {
+                      "Name": "Subtotal (excluding tax)",
+                      "Value": "332,680.31 USD"
+                    },
+                    {
+                      "Name": "Tax Rate - VAT",
+                      "Value": "0%"
+                    },
+                    {
+                      "Name": "Tax Amount - VAT",
+                      "Value": "0.00 USD"
+                    },
+                    {
+                      "Name": "Total Amount (tax included)",
+                      "Value": "332,680.31 USD"
+                    }
+                  ]
+                },
+                {
+                  "Id": "BankDetails",
+                  "Name": "Payment Method Details",
+                  "Fields": [
+                    {
+                      "Name": "Account Name",
+                      "Value": "Amazon Advertising LLC"
+                    },
+                    {
+                      "Name": "Bank",
+                      "Value": "Wells Fargo"
+                    },
+                    {
+                      "Name": "Bank Address",
+                      "Value": "Seattle, WA"
+                    },
+                    {
+                      "Name": "Account Number",
+                      "Value": "4122112444"
+                    },
+                    {
+                      "Name": "ABA Number (Wire)",
+                      "Value": "121000248"
+                    },
+                    {
+                      "Name": "ABA Number (ACH)",
+                      "Value": "121000248"
+                    },
+                    {
+                      "Name": "Routing Number",
+                      "Value": "121000248"
+                    },
+                    {
+                      "Name": "Swift Code",
+                      "Value": "WFBIUS6S"
+                    }
+                  ]
+                },
+                {
+                  "Id": "FAQ",
+                  "Name": "Frequently Asked Questions",
+                  "Fields": [
+                    {
+                      "Name": "Why doesn\u2019t my invoice match what I see in Campaign Manager?",
+                      "Value": "Your invoice is the definitive source for your campaign charges. It includes any adjustments, promotions, taxes, and other fees. Traffic validation might lead to differences."
+                    },
+                    {
+                      "Name": "How is my invoice amount calculated?",
+                      "Value": "Invoices are based on clicks during the billing cycle. They include charges, credits, and promotions across campaigns."
+                    },
+                    {
+                      "Name": "Campaigns are paused but I am still being charged?",
+                      "Value": "Charges can accrue for up to 72 hours after campaigns are paused."
+                    },
+                    {
+                      "Name": "Where can I find more details regarding my billing and payment status?",
+                      "Value": "Visit the Billing and Payments section in your Amazon Advertising account for details."
+                    },
+                    {
+                      "Name": "How is my invoice period determined?",
+                      "Value": "Invoice period is based on the occurrence time of clicks/impressions and network delays."
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "Pages": [
+            {
+              "Id": "Page1",
+              "SourceFile": "amazon_invoice.pdf",
+              "SourceImagePageIndex": 0
+            },
+            {
+              "Id": "Page2",
+              "SourceFile": "amazon_invoice.pdf",
+              "SourceImagePageIndex": 1
+            }
+          ]
+        }
+      }
+    ],
+    "CreationTime": "2024-12-02T06:04:27.7433323+00:00",
+    "SourceFiles": [
+      {
+        "Id": ".blob.abcd1234",
+        "Name": "amazon_invoice.pdf"
+      }
+    ],
+    "RegistrationParameters": {
+      "EmailSubject": "Invoice TRW67Y8G4-343 Ready",
+      "EmailDate": "2024-12-02",
+      "EmailSender": "payments@amazon.com",
+      "EmailAddressee": "accounting@zuru.com"
+    }
+  }
+}

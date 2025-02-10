@@ -1,0 +1,152 @@
+{
+  "Version": "2.3",
+  "Transaction": {
+    "Id": "7283ccde-9490-48e5-b0be-ecdca10ec587",
+    "SkillId": "f651e452-2f28-4c26-aace-d363934a442f",
+    "SkillName": "Zuru Multi Supplier Invoice Process skill",
+    "Documents": [
+      {
+        "Id": "4cec4055-8f6e-4d09-bd6e-8ee48647095f",
+        "ExtractedData": {
+          "DocumentDefinition": {
+            "RootConcept": {
+              "Id": "root",
+              "Name": "Invoice",
+              "Fields": [
+                {
+                  "Id": "BusinessUnit",
+                  "Name": "Business Unit",
+                  "Type": "Concept",
+                  "Value": {
+                    "CompanyName": "Interservis Valencia, S.L",
+                    "EntityCode": "B-96158654"
+                  }
+                },
+                {
+                  "Id": "Currency",
+                  "Name": "Currency",
+                  "Type": "String",
+                  "Value": "EUR"
+                },
+                {
+                  "Id": "InvoiceDate",
+                  "Name": "Invoice Date",
+                  "Type": "ISODate",
+                  "Value": "2024-10-31"
+                },
+                {
+                  "Id": "InvoiceLine",
+                  "Name": "Invoice Line",
+                  "Type": "Concept",
+                  "Value": [
+                    {
+                      "Id": "Line1",
+                      "Fields": {
+                        "Concept": "ALMACENAJE",
+                        "Amount": "141.73"
+                      }
+                    },
+                    {
+                      "Id": "Line2",
+                      "Fields": {
+                        "Concept": "SEGURO ALMACENAJE",
+                        "Amount": "11.34"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Id": "TotalAmount",
+                  "Name": "Total Amount",
+                  "Type": "Decimal",
+                  "Value": "185.21"
+                },
+                {
+                  "Id": "Vendor",
+                  "Name": "Vendor",
+                  "Type": "Concept",
+                  "Value": {
+                    "Country": "ES",
+                    "Vendor_Train": "Interservis Valencia, S.L"
+                  }
+                },
+                {
+                  "Id": "TaxDetails",
+                  "Name": "Tax Details",
+                  "Type": "Concept",
+                  "Value": {
+                    "BaseImponible": "153.07",
+                    "BaseExenta": "0.00",
+                    "ImporteIVA": "32.14"
+                  }
+                },
+                {
+                  "Id": "ClientDetails",
+                  "Name": "Client Details",
+                  "Type": "Concept",
+                  "Value": {
+                    "DomicilioFiscal": {
+                      "Nombre": "ZURU SPAIN, S.L.",
+                      "Direccion": "AVDA. DOCTOR ARCE, 14, 28022 MADRID, ESPA\u00d1A",
+                      "CIF": "B67994095"
+                    },
+                    "DomicilioPostal": {
+                      "Nombre": "ZURU SPAIN, S.L.",
+                      "Direccion": "AVDA. DOCTOR ARCE, 14, 28022 MADRID, ESPA\u00d1A"
+                    }
+                  }
+                },
+                {
+                  "Id": "PaymentDetails",
+                  "Name": "Payment Details",
+                  "Type": "Concept",
+                  "Value": {
+                    "PaymentForm": "TRANSFERENCIA 30 DIAS",
+                    "DueDate": "2024-11-30",
+                    "Amount": "185.21",
+                    "BankDetails": {
+                      "AccountNumber": "ES22 3058 7024 1027 2010 1147",
+                      "BIC": "CCRIES2AXXX"
+                    }
+                  }
+                },
+                {
+                  "Id": "Observations",
+                  "Name": "Observations",
+                  "Type": "String",
+                  "Value": "N\u00ba Prefactura 27418"
+                }
+              ]
+            }
+          },
+          "RootObject": {
+            "Id": "root",
+            "Concept": "Invoice",
+            "Fields": [
+              {
+                "Id": "ImageDescription",
+                "Name": "Image Description",
+                "Type": "String",
+                "Value": "The document image contains a company letterhead for Interservis Valencia, S.L., structured invoice information including fiscal and postal addresses, a list of services/products with amounts, tax details, bank payment details, and GDPR compliance text in the footer."
+              }
+            ]
+          }
+        },
+        "Pages": [
+          {
+            "Id": "Page1",
+            "SourceFile": "Invoice.pdf",
+            "SourceImagePageIndex": 0
+          }
+        ]
+      }
+    ],
+    "CreationTime": "2024-12-02T06:04:27.7433323+00:00",
+    "SourceFiles": [
+      {
+        "Id": "source123",
+        "Name": "Invoice.pdf"
+      }
+    ]
+  }
+}

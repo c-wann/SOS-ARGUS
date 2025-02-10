@@ -1,0 +1,263 @@
+{
+  "Version": "2.3",
+  "Transaction": {
+    "Id": "e07c5d84-cc31-413b-8e12-cc5901af7f02",
+    "SkillId": "f651e452-2f28-4c26-aace-d363934a442f",
+    "SkillName": "Zuru Multi Supplier Invoice Process skill",
+    "Documents": [
+      {
+        "Id": "a630ee7d-c867-47f2-9392-afbdc77552a4",
+        "ExtractedData": {
+          "DocumentDefinition": {
+            "RootConcept": {
+              "Id": "root",
+              "Name": "European Invoice",
+              "Fields": [
+                {
+                  "Id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_21",
+                  "Name": "Business Unit",
+                  "Type": "Concept",
+                  "ValueConcepts": [
+                    {
+                      "Id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_21",
+                      "Name": "",
+                      "Fields": [
+                        {
+                          "Id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_21_15",
+                          "Name": "Company Name",
+                          "Type": "String",
+                          "Cardinality": {
+                            "Min": 0,
+                            "Max": 1
+                          },
+                          "Value": "ZURU FRANCE SASU"
+                        },
+                        {
+                          "Id": "606187d4-983b-48ce-838d-e2c8c7797d0d",
+                          "Name": "Entity Code",
+                          "Type": "String",
+                          "Cardinality": {
+                            "Min": 0,
+                            "Max": 1
+                          },
+                          "Value": "FR50834291031"
+                        }
+                      ]
+                    }
+                  ],
+                  "Cardinality": {
+                    "Min": 0,
+                    "Max": 1
+                  }
+                },
+                {
+                  "Id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_37",
+                  "Name": "Invoice Date",
+                  "Type": "ISODate",
+                  "Cardinality": {
+                    "Min": 0,
+                    "Max": 1
+                  },
+                  "Value": "2024-10-31"
+                },
+                {
+                  "Id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53",
+                  "Name": "Invoice Line",
+                  "Type": "Concept",
+                  "ValueConcepts": [
+                    {
+                      "Id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53",
+                      "Name": "",
+                      "Fields": [
+                        {
+                          "Id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53_7",
+                          "Name": "Amount",
+                          "Type": "Decimal",
+                          "Cardinality": {
+                            "Min": 0,
+                            "Max": 1
+                          },
+                          "Value": [
+                            "20039.21",
+                            "18746.28",
+                            "5787.55",
+                            "1345.19",
+                            "800.25",
+                            "284.72",
+                            "2467.38",
+                            "1025.64",
+                            "3827.08",
+                            "6692.04",
+                            "3161.38",
+                            "39.96",
+                            "1258.96",
+                            "3290.63",
+                            "1504.15",
+                            "625.20",
+                            "2517.46"
+                          ]
+                        },
+                        {
+                          "Id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53_9",
+                          "Name": "Short Text",
+                          "Type": "String",
+                          "Cardinality": {
+                            "Min": 0,
+                            "Max": 1
+                          },
+                          "Value": [
+                            "Fixed rate for aera and storage for 90% of 1838 places",
+                            "Additional pallet location according to the monthly peak",
+                            "Fixed rate for management: overhead and administrative staff",
+                            "Fixed rate for IT: IT network and support",
+                            "Fixed rate for IT: transport management system",
+                            "Fixed rate for miscellaneous (insurance)",
+                            "Inbound container: number of carton",
+                            "Picking and outbound complet pallet: number of complete pallet",
+                            "Mixed pallet picking: number of mixed pallet",
+                            "Mixed pallet picking: number of order line",
+                            "Mixed pallet picking: number of pick carton",
+                            "Manual creation of a new article",
+                            "Hour of control",
+                            "Pallets (cost + fee 12%): see details attached to the invoice",
+                            "Consumable supplies (cost + fee 12%): see details attached to the invoice",
+                            "Handling for warranty strip and hat",
+                            "Zuru coordinator"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "Cardinality": {
+                    "Min": 0,
+                    "Max": -1
+                  }
+                },
+                {
+                  "Id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_40",
+                  "Name": "Total Amount",
+                  "Type": "Decimal",
+                  "Cardinality": {
+                    "Min": 0,
+                    "Max": 1
+                  },
+                  "Value": "88095.70"
+                }
+              ]
+            }
+          },
+          "RootObject": {
+            "Id": "root",
+            "Concept": "European Invoice",
+            "Fields": [
+              {
+                "Name": "Business Unit",
+                "Value": {
+                  "Company Name": "ZURU FRANCE SASU",
+                  "Entity Code": "FR50834291031"
+                }
+              },
+              {
+                "Name": "Invoice Date",
+                "Value": "2024-10-31"
+              },
+              {
+                "Name": "Invoice Line",
+                "Details": {
+                  "Line Items": [
+                    {
+                      "Short Text": "Fixed rate for aera and storage for 90% of 1838 places",
+                      "Amount": "20039.21"
+                    },
+                    {
+                      "Short Text": "Additional pallet location according to the monthly peak",
+                      "Amount": "18746.28"
+                    },
+                    {
+                      "Short Text": "Fixed rate for management: overhead and administrative staff",
+                      "Amount": "5787.55"
+                    },
+                    {
+                      "Short Text": "Fixed rate for IT: IT network and support",
+                      "Amount": "1345.19"
+                    },
+                    {
+                      "Short Text": "Fixed rate for IT: transport management system",
+                      "Amount": "800.25"
+                    },
+                    {
+                      "Short Text": "Fixed rate for miscellaneous (insurance)",
+                      "Amount": "284.72"
+                    },
+                    {
+                      "Short Text": "Inbound container: number of carton",
+                      "Amount": "2467.38"
+                    },
+                    {
+                      "Short Text": "Picking and outbound complet pallet: number of complete pallet",
+                      "Amount": "1025.64"
+                    },
+                    {
+                      "Short Text": "Mixed pallet picking: number of mixed pallet",
+                      "Amount": "3827.08"
+                    },
+                    {
+                      "Short Text": "Mixed pallet picking: number of order line",
+                      "Amount": "6692.04"
+                    },
+                    {
+                      "Short Text": "Mixed pallet picking: number of pick carton",
+                      "Amount": "3161.38"
+                    },
+                    {
+                      "Short Text": "Manual creation of a new article",
+                      "Amount": "39.96"
+                    },
+                    {
+                      "Short Text": "Hour of control",
+                      "Amount": "1258.96"
+                    },
+                    {
+                      "Short Text": "Pallets (cost + fee 12%): see details attached to the invoice",
+                      "Amount": "3290.63"
+                    },
+                    {
+                      "Short Text": "Consumable supplies (cost + fee 12%): see details attached to the invoice",
+                      "Amount": "1504.15"
+                    },
+                    {
+                      "Short Text": "Handling for warranty strip and hat",
+                      "Amount": "625.20"
+                    },
+                    {
+                      "Short Text": "Zuru coordinator",
+                      "Amount": "2517.46"
+                    }
+                  ]
+                }
+              },
+              {
+                "Name": "Total Amount",
+                "Value": "88095.70"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "CreationTime": "2024-12-16T06:28:27.5172522+00:00",
+    "SourceFiles": [
+      {
+        "Id": ".blob.c45dfaab-1927-45ac-9956-654a0e901fb2",
+        "Name": "FATTILIB3165.pdf"
+      }
+    ],
+    "RegistrationParameters": {
+      "EmailSubject": "Invio fattura/nota credito di cortesia-<sbrusati@sialog.it>-32968",
+      "EmailDate": "12/16/2024 06:27:32 +00:00",
+      "EmailSender": "postmaster-odoo@zuru.com",
+      "EmailAddressee": "auto_invoice@zuru.com",
+      "App": "PublicAPI"
+    }
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "Invoice": {
+    "InvoiceNumber": "TRW67Y8G4-343",
+    "InvoiceDate": "2024-12-02",
+    "InvoicePeriod": {
+      "StartDate": "2024-11-01",
+      "EndDate": "2024-11-30"
+    },
+    "InvoiceCurrency": "USD",
+    "PaymentMethod": "Invoice",
+    "PaymentTerms": "Net 30",
+    "TotalAmountDue": 332680.31,
+    "DueDate": "2025-01-01",
+    "Subtotal": 332680.31,
+    "TaxRate": 0,
+    "TaxAmount": 0,
+    "Portfolios": [
+      {
+        "Name": "Mini Brands",
+        "TotalAmount": 122270.04,
+        "Campaigns": [
+          {
+            "CampaignName": "Mini Brands MasterChef SP MC Keywords",
+            "CampaignType": "SPONSORED PRODUCTS",
+            "Clicks": 10826,
+            "AverageCPC": 0.35,
+            "Amount": 3820.55
+          },
+          {
+            "CampaignName": "Mini Brands SS24 SP Conquesting Products",
+            "CampaignType": "SPONSORED PRODUCTS",
+            "Clicks": 42505,
+            "AverageCPC": 0.52,
+            "Amount": 22005.72
+          },
+          {
+            "CampaignName": "Mini Brands Advent Calendar Manual Keywords",
+            "CampaignType": "SPONSORED PRODUCTS",
+            "Clicks": 51869,
+            "AverageCPC": 0.65,
+            "Amount": 33888.05
+          },
+          {
+            "CampaignName": "Mini Brands Home Store SBV Keywords 2024",
+            "CampaignType": "SPONSORED BRANDS",
+            "Clicks": 2453,
+            "AverageCPC": 0.71,
+            "Amount": 1731.37
+          },
+          {
+            "CampaignName": "5Surprise Surprise Pack Advent Calendar - Perpetua - SP - Branded Manual - tw8s0g6v#lbfc8u7y123",
+            "CampaignType": "SPONSORED PRODUCTS",
+            "Clicks": 30750,
+            "AverageCPC": 0.29,
+            "Amount": 8832
+          },
+          {
+            "CampaignName": "Mini Brands Garden PDP SBV Keywords 2024",
+            "CampaignType": "SPONSORED BRANDS",
+            "Clicks": 8660,
+            "AverageCPC": 0.44,
+            "Amount": 3848.44
+          },
+          {
+            "CampaignName": "5Surprise Surprise Pack Advent Calendar - Perpetua - SP - Manual - tw8s0g6v#lbfc8u7y159",
+            "CampaignType": "SPONSORED PRODUCTS",
+            "Clicks": 44903,
+            "AverageCPC": 0.4,
+            "Amount": 17978.02
+          },
+          {
+            "CampaignName": "5Surprise Mini Brands 2 Packs - Perpetua - SP - Branded Manual - omhdhodt#lj53x3s4269",
+            "CampaignType": "SPONSORED PRODUCTS",
+            "Clicks": 10890,
+            "AverageCPC": 0.14,
+            "Amount": 1537.52
+          }
+        ]
+      },
+      {
+        "Name": "Other Fees and Adjustments",
+        "TotalAmount": 77789.59
+      },
+      {
+        "Name": "X-Shot",
+        "TotalAmount": 39710.46
+      },
+      {
+        "Name": "Rainbocorns",
+        "TotalAmount": 28683.48
+      },
+      {
+        "Name": "Smashers",
+        "TotalAmount": 31916.39
+      },
+      {
+        "Name": "Pets Alive",
+        "TotalAmount": 1538.2
+      },
+      {
+        "Name": "Snackles",
+        "TotalAmount": 21204.3
+      },
+      {
+        "Name": "Robo Alive Jr.",
+        "TotalAmount": 4807.17
+      },
+      {
+        "Name": "5 Surprise",
+        "TotalAmount": 4354.37
+      },
+      {
+        "Name": "Anime Pop",
+        "TotalAmount": 1042.09
+      }
+    ],
+    "Promotions": {
+      "Total": -669.57,
+      "Details": [
+        {
+          "Type": "Q424 GGS ASIN Promotion",
+          "Amount": -250
+        },
+        {
+          "Type": "Invalid Clicks",
+          "Amount": -419.57
+        }
+      ]
+    },
+    "RegulatoryFees": {
+      "Total": 33.79,
+      "Details": [
+        {
+          "Jurisdiction": "Italy",
+          "Amount": 2.1
+        },
+        {
+          "Jurisdiction": "United Kingdom",
+          "Amount": 2.46
+        },
+        {
+          "Jurisdiction": "France",
+          "Amount": 1.71
+        },
+        {
+          "Jurisdiction": "CA",
+          "Amount": 24.67
+        },
+        {
+          "Jurisdiction": "Spain",
+          "Amount": 2.85
+        }
+      ]
+    },
+    "WireInformation": {
+      "AccountName": "Amazon Advertising LLC",
+      "Bank": "Wells Fargo",
+      "BankAddress": "Seattle, WA",
+      "AccountNumber": "4122112444",
+      "ABA_Wire": "121000248",
+      "ABA_ACH": "121000248",
+      "RoutingNumber": "121000248",
+      "SwiftCode": "WFBIUS6S",
+      "CheckAddress": {
+        "Name": "Amazon Advertising LLC",
+        "POBox": "PO Box 24651",
+        "CityStateZip": "Seattle, WA 98124-0651"
+      },
+      "NotificationEmail": "AMS_Receivables@amazon.com"
+    },
+    "FrequentlyAskedQuestions": [
+      {
+        "Question": "Why doesn't my invoice match what I see in Campaign Manager?",
+        "Answer": "Your invoice is the definitive source for your campaign charges. It includes any adjustments, promotions, taxes and other fees..."
+      },
+      {
+        "Question": "How is my invoice amount calculated?",
+        "Answer": "Invoices are issued based on clicks generated during your billing cycle. Your billing cycle is determined by the payment method you have selected..."
+      },
+      {
+        "Question": "Campaigns are paused but I am still being charged?",
+        "Answer": "If you have paused your campaigns, please note that spend can accrue for up to 72 hours for clicks generated while the campaign was still active..."
+      },
+      {
+        "Question": "Where can I find more details regarding my billing and payment status?",
+        "Answer": "Please visit the Billing and Payments section within your Amazon Advertising account to learn more about your invoice and payment history..."
+      },
+      {
+        "Question": "How is my invoice period determined?",
+        "Answer": "Your invoice period is based on the time of the occurrence of the clicks and/or impressions, as well as your chosen payment method..."
+      }
+    ]
+  }
+}

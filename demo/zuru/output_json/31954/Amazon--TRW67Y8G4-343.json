@@ -1,0 +1,200 @@
+{
+  "Version": "2.3",
+  "Transaction": {
+    "Id": "06eab3e7-9591-45f4-8711-8666cc154b78",
+    "SkillId": "f651e452-2f28-4c26-aace-d363934a442f",
+    "SkillName": "Zuru Multi Supplier Invoice Process skill",
+    "Documents": [
+      {
+        "Id": "7bc74d6b-aedc-4ed5-8c08-53f11b0c3f66",
+        "ExtractedData": {
+          "DocumentDefinition": {
+            "RootConcept": {
+              "Id": "root",
+              "Name": "Amazon Advertising Invoice"
+            }
+          },
+          "RootObject": {
+            "Id": "root",
+            "Concept": "Amazon Advertising Invoice",
+            "Fields": [
+              {
+                "Name": "From",
+                "Value": "Amazon Advertising LLC\nPO Box 24651\nSeattle, WA 98124-0651\nTax Number 91-2000471"
+              },
+              {
+                "Name": "To",
+                "Value": "ZURU INC\nRoom 1202, 12th Floor Energy Plaza, 92\nGranville Road TST East, Kowloon, Hong Kong"
+              },
+              {
+                "Name": "Invoice Number",
+                "Value": "TRW67Y8G4-343"
+              },
+              {
+                "Name": "Invoice Date",
+                "Value": "2024-12-02"
+              },
+              {
+                "Name": "Invoice Period",
+                "Value": "2024-11-01 to 2024-11-30"
+              },
+              {
+                "Name": "Due Date",
+                "Value": "2025-01-01"
+              },
+              {
+                "Name": "Billed Amount Due",
+                "Value": "332,680.31 USD"
+              },
+              {
+                "Name": "Invoice Currency",
+                "Value": "USD"
+              },
+              {
+                "Name": "Payment Method",
+                "Value": "Invoice"
+              },
+              {
+                "Name": "Payment Terms",
+                "Value": "Net 30"
+              },
+              {
+                "Name": "Summary of Portfolio Charges",
+                "Value": [
+                  {
+                    "Portfolio Name": "Mini Brands",
+                    "Amount (ex. Tax)": "122,270.04 USD"
+                  },
+                  {
+                    "Portfolio Name": "Other Fees and Adjustments",
+                    "Amount (ex. Tax)": "77,789.59 USD"
+                  },
+                  {
+                    "Portfolio Name": "X-Shot",
+                    "Amount (ex. Tax)": "39,710.46 USD"
+                  },
+                  {
+                    "Portfolio Name": "Rainbocorns",
+                    "Amount (ex. Tax)": "28,683.48 USD"
+                  },
+                  {
+                    "Portfolio Name": "Smashers",
+                    "Amount (ex. Tax)": "31,916.39 USD"
+                  },
+                  {
+                    "Portfolio Name": "Pets Alive",
+                    "Amount (ex. Tax)": "1,538.20 USD"
+                  },
+                  {
+                    "Portfolio Name": "Snackles",
+                    "Amount (ex. Tax)": "21,204.30 USD"
+                  },
+                  {
+                    "Portfolio Name": "Robo Alive Jr.",
+                    "Amount (ex. Tax)": "4,807.17 USD"
+                  },
+                  {
+                    "Portfolio Name": "5 Surprise",
+                    "Amount (ex. Tax)": "4,354.37 USD"
+                  },
+                  {
+                    "Portfolio Name": "Anime Pop",
+                    "Amount (ex. Tax)": "1,042.09 USD"
+                  },
+                  {
+                    "Portfolio Name": "Total",
+                    "Amount (ex. Tax)": "333,316.09 USD"
+                  }
+                ]
+              },
+              {
+                "Name": "Regulatory Fees",
+                "Value": [
+                  {
+                    "Jurisdiction": "Italy",
+                    "Amount (ex. Tax)": "2.10 USD"
+                  },
+                  {
+                    "Jurisdiction": "United Kingdom",
+                    "Amount (ex. Tax)": "2.46 USD"
+                  },
+                  {
+                    "Jurisdiction": "France",
+                    "Amount (ex. Tax)": "1.71 USD"
+                  },
+                  {
+                    "Jurisdiction": "CA",
+                    "Amount (ex. Tax)": "24.67 USD"
+                  },
+                  {
+                    "Jurisdiction": "Spain",
+                    "Amount (ex. Tax)": "2.85 USD"
+                  }
+                ]
+              },
+              {
+                "Name": "Tax Rate - VAT",
+                "Value": "0%"
+              },
+              {
+                "Name": "Tax Amount - VAT",
+                "Value": "0.00 USD"
+              },
+              {
+                "Name": "Total Promotions",
+                "Value": "-669.57 USD"
+              },
+              {
+                "Name": "Final Total Amount",
+                "Value": "332,680.31 USD (tax included)"
+              },
+              {
+                "Name": "Wire Transfer Details",
+                "Value": {
+                  "Account Name": "Amazon Advertising LLC",
+                  "Bank": "Wells Fargo",
+                  "Bank Address": "Seattle, WA",
+                  "Account #": "4122112444",
+                  "ABA Number (Wire)": "121000248",
+                  "ABA Number (ACH)": "121000248",
+                  "Routing Number": "121000248",
+                  "Swift Code": "WFBIUS6S"
+                }
+              },
+              {
+                "Name": "Reference for Payment",
+                "Value": "Please note the invoice number when making payments."
+              },
+              {
+                "Name": "Frequently Asked Questions",
+                "Value": "Information provided regarding issues like invoice mismatches, campaign period calculations, billing and paused campaign charges."
+              }
+            ]
+          },
+          "Pages": [
+            {
+              "Id": "Page1",
+              "SourceFile": "Amazon_Invoice_TRW67Y8G4-343.pdf",
+              "SourceImagePageIndex": 1,
+              "Description": "Highlights summary of charges, regulatory fees, payment methods, FAQs."
+            }
+          ],
+          "SourceFiles": [
+            {
+              "Id": ".blob.98a05575-d2ef-4216-ae3a-1760facb5a12",
+              "Name": "Amazon_Invoice_TRW67Y8G4-343.pdf"
+            }
+          ]
+        }
+      }
+    ],
+    "CreationTime": "2024-12-02T11:07:27.6394133+00:00",
+    "RegistrationParameters": {
+      "EmailSubject": "Invoice Amazon Advertising - ZURU INC",
+      "EmailDate": "2024-12-02T11:06:45+00:00",
+      "EmailSender": "billing@amazonadvertising.com",
+      "EmailAddressee": "accounts@zuru.com",
+      "App": "PublicAPI"
+    }
+  }
+}

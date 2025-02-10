@@ -1,0 +1,217 @@
+{
+  "Version": "2.3",
+  "Transaction": {
+    "Id": "ed99baeb-34e2-4a89-972b-5a574324ea4a",
+    "SkillId": "f651e452-2f28-4c26-aace-d363934a442f",
+    "SkillName": "Zuru Multi Supplier Invoice Process skill",
+    "Documents": [
+      {
+        "Id": "bab7f205-f07a-43de-a651-474022ef3390",
+        "ExtractedData": {
+          "DocumentDefinition": {
+            "RootConcept": {
+              "Id": "root",
+              "Name": "Invoice",
+              "Fields": [
+                {
+                  "Id": "Business Unit",
+                  "Name": "Business Unit",
+                  "Type": "Concept",
+                  "ValueConcepts": [],
+                  "Cardinality": {
+                    "Min": 0,
+                    "Max": 1
+                  }
+                },
+                {
+                  "Id": "Vendor",
+                  "Name": "Vendor",
+                  "Type": "Concept",
+                  "ValueConcepts": [
+                    {
+                      "Id": "Vendor",
+                      "Fields": [
+                        {
+                          "Name": "Vendor Name",
+                          "Value": "All Creative A/S"
+                        },
+                        {
+                          "Name": "Vendor Address",
+                          "Value": "Sales: Islevdalvej 214, DK-2610 R\u00f8dovre \u00b7 Production: Tulipvej 3, DK-7100 Vejle"
+                        },
+                        {
+                          "Name": "Vendor Contact",
+                          "Value": "Phone: +45 47 17 11 00 \u00b7 info@allcreative.dk"
+                        }
+                      ]
+                    }
+                  ],
+                  "Cardinality": {
+                    "Min": 0,
+                    "Max": 1
+                  }
+                },
+                {
+                  "Id": "Invoice Details",
+                  "Name": "Invoice Details",
+                  "Type": "Concept",
+                  "ValueConcepts": [
+                    {
+                      "Id": "Invoice",
+                      "Fields": [
+                        {
+                          "Name": "Invoice Number",
+                          "Value": "31728"
+                        },
+                        {
+                          "Name": "Invoice Date",
+                          "Value": "2024-10-15"
+                        },
+                        {
+                          "Name": "Customer Number",
+                          "Value": "27648001"
+                        }
+                      ]
+                    }
+                  ],
+                  "Cardinality": {
+                    "Min": 0,
+                    "Max": 1
+                  }
+                },
+                {
+                  "Id": "Order Details",
+                  "Name": "Order Details",
+                  "Type": "Concept",
+                  "ValueConcepts": [
+                    {
+                      "Id": "Order",
+                      "Fields": [
+                        {
+                          "Name": "Order Number",
+                          "Value": "85238"
+                        },
+                        {
+                          "Name": "Tariff Code",
+                          "Value": "48191000"
+                        },
+                        {
+                          "Name": "Weight",
+                          "Value": "50 kg"
+                        },
+                        {
+                          "Name": "Description",
+                          "Value": "Rainbocorns 1/2 palle modeller"
+                        },
+                        {
+                          "Name": "Line Items",
+                          "Value": [
+                            {
+                              "Item Description": "Layout/grafisk arbejde/rentegning",
+                              "Quantity": 10,
+                              "Unit Price": 800,
+                              "Total Price": 8000
+                            },
+                            {
+                              "Item Description": "Printet pr\u00f8ver/samlevejledning/forsendelse",
+                              "Quantity": 1,
+                              "Unit Price": 5100,
+                              "Total Price": 5100
+                            }
+                          ]
+                        },
+                        {
+                          "Name": "Total Amount (Excl. Tax)",
+                          "Value": "13100.00"
+                        },
+                        {
+                          "Name": "Environmental Fee",
+                          "Value": "219.00"
+                        },
+                        {
+                          "Name": "Tax Percentage",
+                          "Value": "25.00%"
+                        },
+                        {
+                          "Name": "Total Amount (Incl. Tax)",
+                          "Value": "16648.75"
+                        }
+                      ]
+                    }
+                  ],
+                  "Cardinality": {
+                    "Min": 0,
+                    "Max": 1
+                  }
+                },
+                {
+                  "Id": "Payment Details",
+                  "Name": "Payment Details",
+                  "Type": "Concept",
+                  "ValueConcepts": [
+                    {
+                      "Id": "Payment",
+                      "Fields": [
+                        {
+                          "Name": "Payment Terms",
+                          "Value": "Netto 14 dage"
+                        },
+                        {
+                          "Name": "Due Date",
+                          "Value": "2024-10-29"
+                        },
+                        {
+                          "Name": "Bank Details",
+                          "Value": {
+                            "Bank Name": "Sydbank",
+                            "Registration Number": "7702",
+                            "Account Number": "0000 436 291",
+                            "Swift": "SYBK DK 22",
+                            "IBAN": "DK 42 7702 0000 436291"
+                          }
+                        },
+                        {
+                          "Name": "Payment Identification",
+                          "Value": "+71< 276480010317288+87637492<"
+                        }
+                      ]
+                    }
+                  ],
+                  "Cardinality": {
+                    "Min": 0,
+                    "Max": 1
+                  }
+                }
+              ]
+            }
+          },
+          "RootObject": {
+            "Id": "root",
+            "Concept": "Invoice",
+            "Fields": []
+          }
+        },
+        "Pages": [
+          {
+            "Id": "61712257-52c9-4105-bcbc-4926f5a9f0cd",
+            "SourceFile": "ZURU_Document.pdf",
+            "SourceImagePageIndex": 0
+          }
+        ],
+        "ClassificationResult": {
+          "IsResultClassConfident": true,
+          "ResultClass": "Invoice",
+          "ResultClassName": "Invoice"
+        }
+      }
+    ],
+    "CreationTime": "2024-12-04T07:43:28.1235168+00:00",
+    "SourceFiles": [
+      {
+        "Id": "blob.cd7ddc6c-b0c9-402d-b2a9-996548be7d52",
+        "Name": "ZURU_Document.pdf"
+      }
+    ],
+    "RegistrationParameters": {}
+  }
+}

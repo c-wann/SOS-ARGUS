@@ -1,0 +1,195 @@
+{
+  "Version": "2.3",
+  "Transaction": {
+    "Id": "7283ccde-9490-48e5-b0be-ecdca10ec587",
+    "SkillId": "f651e452-2f28-4c26-aace-d363934a442f",
+    "SkillName": "Zuru Multi Supplier Invoice Process skill",
+    "Documents": [
+      {
+        "Id": "4cec4055-8f6e-4d09-bd6e-8ee48647095f",
+        "ExtractedData": {
+          "DocumentDefinition": {
+            "RootConcept": {
+              "Id": "root",
+              "Name": "Invoice",
+              "Fields": [
+                {
+                  "Id": "FC_fc5af33f_d7ba_44d0_aa77_613495796549_21",
+                  "Name": "Business Unit",
+                  "Type": "Concept",
+                  "ValueConcepts": [
+                    {
+                      "Id": "FC_fc5af33f_d7ba_44d0_aa77_613495796549_21",
+                      "Name": "",
+                      "Fields": [
+                        {
+                          "Id": "FC_fc5af33f_d7ba_44d0_aa77_613495796549_21_15",
+                          "Name": "Company Name",
+                          "Type": "String",
+                          "Cardinality": {
+                            "Min": 0,
+                            "Max": 1
+                          }
+                        },
+                        {
+                          "Id": "dc3a80db-dd12-4460-b077-63096d881907",
+                          "Name": "Entity Code",
+                          "Type": "String",
+                          "Cardinality": {
+                            "Min": 0,
+                            "Max": 1
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "Cardinality": {
+                    "Min": 0,
+                    "Max": 1
+                  }
+                },
+                {
+                  "Id": "FC_fc5af33f_d7ba_44d0_aa77_613495796549_37",
+                  "Name": "Invoice Date",
+                  "Type": "ISODate",
+                  "Cardinality": {
+                    "Min": 0,
+                    "Max": 1
+                  },
+                  "Value": "2024-10-15"
+                },
+                {
+                  "Id": "FC_fc5af33f_d7ba_44d0_aa77_613495796549_53",
+                  "Name": "Invoice Line",
+                  "Type": "Concept",
+                  "ValueConcepts": [
+                    {
+                      "Id": "FC_fc5af33f_d7ba_44d0_aa77_613495796549_53",
+                      "Name": "",
+                      "Fields": [
+                        {
+                          "Id": "FC_fc5af33f_d7ba_44d0_aa77_613495796549_53_6",
+                          "Name": "Amount",
+                          "Type": "Decimal",
+                          "Cardinality": {
+                            "Min": 0,
+                            "Max": 1
+                          },
+                          "Value": "13100.00"
+                        },
+                        {
+                          "Id": "FC_fc5af33f_d7ba_44d0_aa77_613495796549_53_9",
+                          "Name": "Description",
+                          "Type": "String",
+                          "Cardinality": {
+                            "Min": 0,
+                            "Max": 1
+                          },
+                          "Value": "Layout/grafisk arbejde, pr\u00f8ver/samlevejledning og fragt"
+                        }
+                      ]
+                    }
+                  ],
+                  "Cardinality": {
+                    "Min": 0,
+                    "Max": -1
+                  }
+                },
+                {
+                  "Id": "FC_fc5af33f_d7ba_44d0_aa77_613495796549_40",
+                  "Name": "Total Amount",
+                  "Type": "Decimal",
+                  "Cardinality": {
+                    "Min": 0,
+                    "Max": 1
+                  },
+                  "Value": "16648.75"
+                },
+                {
+                  "Id": "FC_fc5af33f_d7ba_44d0_aa77_613495796549_41",
+                  "Name": "Currency",
+                  "Type": "String",
+                  "Cardinality": {
+                    "Min": 0,
+                    "Max": 1
+                  },
+                  "Value": "DKK"
+                },
+                {
+                  "Id": "FC_fc5af33f_d7ba_44d0_aa77_613495796549_22",
+                  "Name": "Vendor",
+                  "Type": "Concept",
+                  "ValueConcepts": [
+                    {
+                      "Id": "FC_fc5af33f_d7ba_44d0_aa77_613495796549_22",
+                      "Name": "",
+                      "Fields": [
+                        {
+                          "Id": "FC_fc5af33f_d7ba_44d0_aa77_613495796549_22_10",
+                          "Name": "Country",
+                          "Type": "String",
+                          "Cardinality": {
+                            "Min": 0,
+                            "Max": 1
+                          },
+                          "Value": "Denmark"
+                        },
+                        {
+                          "Id": "b4e59733-e4f9-4685-81e2-de554326ec28",
+                          "Name": "Company Name",
+                          "Type": "String",
+                          "Cardinality": {
+                            "Min": 0,
+                            "Max": 1
+                          },
+                          "Value": "ZURU Denmark ApS"
+                        }
+                      ]
+                    }
+                  ],
+                  "Cardinality": {
+                    "Min": 0,
+                    "Max": 1
+                  }
+                }
+              ]
+            }
+          },
+          "RootObject": {
+            "Id": "root",
+            "Concept": "Invoice",
+            "Fields": [
+              {
+                "Name": "Kunde CVR",
+                "Value": "42269026"
+              },
+              {
+                "Name": "Faktura",
+                "Value": "31728"
+              },
+              {
+                "Name": "Delivery Address",
+                "Value": "HC. Andersens Boulevard 51 st. tv, 1553 K\u00f8benhavn V, Denmark"
+              },
+              {
+                "Name": "Payment Terms",
+                "Value": "Netto 14 dage"
+              },
+              {
+                "Name": "Due Date",
+                "Value": "2024-10-29"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "CreationTime": "2024-12-02T06:04:27.7433323+00:00",
+    "SourceFiles": [
+      {
+        "Id": ".blob.d763b69a-a54e-49bf-9e79-7f85efa589a1",
+        "Name": "FAKTURA_31728.pdf"
+      }
+    ]
+  }
+}

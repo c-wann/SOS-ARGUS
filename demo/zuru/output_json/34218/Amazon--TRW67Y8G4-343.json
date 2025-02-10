@@ -1,0 +1,152 @@
+{
+  "Version": "2.3",
+  "Transaction": {
+    "Id": "ed99baeb-34e2-4a89-972b-5a574324ea4a",
+    "SkillId": "f651e452-2f28-4c26-aace-d363934a442f",
+    "SkillName": "Zuru Multi Supplier Invoice Process skill",
+    "Documents": [
+      {
+        "Id": "bab7f205-f07a-43de-a651-474022ef3390",
+        "ExtractedData": {
+          "DocumentDefinition": {
+            "RootConcept": {
+              "Id": "root",
+              "Name": "Invoice",
+              "Fields": [
+                {
+                  "Id": "InvoiceDetails",
+                  "Name": "Invoice Details",
+                  "Fields": [
+                    {
+                      "Name": "InvoiceNumber",
+                      "Type": "String",
+                      "Value": "TRW67Y8G4-343"
+                    },
+                    {
+                      "Name": "InvoiceDate",
+                      "Type": "ISODate",
+                      "Value": "2024-12-02"
+                    },
+                    {
+                      "Name": "DueDate",
+                      "Type": "ISODate",
+                      "Value": "2025-01-01"
+                    },
+                    {
+                      "Name": "InvoicePeriod",
+                      "Type": "String",
+                      "Value": "2024-11-01 to 2024-11-30"
+                    },
+                    {
+                      "Name": "InvoiceCurrency",
+                      "Type": "String",
+                      "Value": "USD"
+                    },
+                    {
+                      "Name": "PaymentMethod",
+                      "Type": "String",
+                      "Value": "Invoice"
+                    },
+                    {
+                      "Name": "PaymentTerms",
+                      "Type": "String",
+                      "Value": "Net 30"
+                    },
+                    {
+                      "Name": "BilledAmountDue",
+                      "Type": "Decimal",
+                      "Value": "332680.31"
+                    }
+                  ]
+                },
+                {
+                  "Id": "BusinessDetails",
+                  "Name": "Business Details",
+                  "Fields": [
+                    {
+                      "Name": "From",
+                      "Fields": [
+                        {
+                          "Name": "CompanyName",
+                          "Type": "String",
+                          "Value": "Amazon Advertising LLC"
+                        },
+                        {
+                          "Name": "POBox",
+                          "Type": "String",
+                          "Value": "PO Box 24651"
+                        },
+                        {
+                          "Name": "CityStateZIP",
+                          "Type": "String",
+                          "Value": "Seattle WA 98124-0651"
+                        },
+                        {
+                          "Name": "TaxNumber",
+                          "Type": "String",
+                          "Value": "91-2000471"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "To",
+                      "Fields": [
+                        {
+                          "Name": "CompanyName",
+                          "Type": "String",
+                          "Value": "ZURU INC"
+                        },
+                        {
+                          "Name": "Address1",
+                          "Type": "String",
+                          "Value": "Room 1202, 12th Floor Energy Plaza"
+                        },
+                        {
+                          "Name": "Street",
+                          "Type": "String",
+                          "Value": "92 Granville Road"
+                        },
+                        {
+                          "Name": "City",
+                          "Type": "String",
+                          "Value": "TST East, Kowloon"
+                        },
+                        {
+                          "Name": "Country",
+                          "Type": "String",
+                          "Value": "Hong Kong"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "Id": "SummaryPortfolioCharges",
+                  "Name": "Summary of Portfolio Charges",
+                  "Fields": [
+                    {
+                      "Name": "PortfolioSummary",
+                      "Fields": [
+                        {
+                          "PortfolioName": "Mini Brands",
+                          "TotalAmount": 122270.04
+                        },
+                        {
+                          "PortfolioName": "Other Fees and Adjustments",
+                          "TotalAmount": 77789.59
+                        },
+                        {
+                          "PortfolioName": "X-Shott ..."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}

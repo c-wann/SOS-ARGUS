@@ -1,0 +1,230 @@
+{
+  "Version": "2.3",
+  "Transaction": {
+    "Id": "06eab3e7-9591-45f4-8711-8666cc154b78",
+    "SkillId": "f651e452-2f28-4c26-aace-d363934a442f",
+    "SkillName": "Zuru Multi Supplier Invoice Process skill",
+    "Documents": [
+      {
+        "Id": "7bc74d6b-aedc-4ed5-8c08-53f11b0c3f66",
+        "ExtractedData": {
+          "DocumentDefinition": {
+            "RootConcept": {
+              "Id": "root",
+              "Name": "European Invoice",
+              "Fields": [
+                {
+                  "Id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_21",
+                  "Name": "Business Unit",
+                  "Type": "Concept",
+                  "ValueConcepts": [],
+                  "Cardinality": {
+                    "Min": 0,
+                    "Max": 1
+                  }
+                },
+                {
+                  "Id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_22",
+                  "Name": "Vendor",
+                  "Type": "Concept",
+                  "ValueConcepts": [],
+                  "Cardinality": {
+                    "Min": 0,
+                    "Max": 1
+                  }
+                },
+                {
+                  "Id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_37",
+                  "Name": "Invoice Date",
+                  "Type": "ISODate",
+                  "Cardinality": {
+                    "Min": 0,
+                    "Max": 1
+                  }
+                },
+                {
+                  "Id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_41",
+                  "Name": "Currency",
+                  "Type": "String",
+                  "Cardinality": {
+                    "Min": 0,
+                    "Max": 1
+                  }
+                },
+                {
+                  "Id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_40",
+                  "Name": "Total Amount",
+                  "Type": "Decimal",
+                  "Cardinality": {
+                    "Min": 0,
+                    "Max": 1
+                  }
+                },
+                {
+                  "Id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53",
+                  "Name": "Invoice Line",
+                  "Type": "Concept",
+                  "ValueConcepts": [],
+                  "Cardinality": {
+                    "Min": 0,
+                    "Max": -1
+                  }
+                }
+              ]
+            }
+          },
+          "RootObject": {
+            "Id": "root",
+            "Concept": "European Invoice",
+            "Fields": [
+              {
+                "Name": "Business Unit",
+                "List": [
+                  {
+                    "Annotations": [],
+                    "Value": {
+                      "Fields": [
+                        {
+                          "Name": "Company Name",
+                          "List": [
+                            {
+                              "Value": "ZURU Denmark ApS"
+                            }
+                          ]
+                        },
+                        {
+                          "Name": "Entity Code",
+                          "List": []
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "Name": "Vendor",
+                "List": [
+                  {
+                    "Annotations": [],
+                    "Value": {
+                      "Fields": [
+                        {
+                          "Name": "Country",
+                          "List": [
+                            {
+                              "Value": "DK"
+                            }
+                          ]
+                        },
+                        {
+                          "Name": "Vendor_Train",
+                          "List": [
+                            {
+                              "Value": "All Creative A/S"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "Name": "Invoice Date",
+                "List": [
+                  {
+                    "Annotations": [],
+                    "Value": "2024-10-15"
+                  }
+                ]
+              },
+              {
+                "Name": "Currency",
+                "List": [
+                  {
+                    "Annotations": [],
+                    "Value": "DKK"
+                  }
+                ]
+              },
+              {
+                "Name": "Invoice Line",
+                "List": [
+                  {
+                    "Annotations": [],
+                    "Value": {
+                      "Fields": [
+                        {
+                          "Name": "Amount",
+                          "List": [
+                            {
+                              "Value": "8000.00"
+                            }
+                          ]
+                        },
+                        {
+                          "Name": "Short Text",
+                          "List": [
+                            {
+                              "Value": "10 Layout/grafisk arbejde/rentegning"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "Annotations": [],
+                    "Value": {
+                      "Fields": [
+                        {
+                          "Name": "Amount",
+                          "List": [
+                            {
+                              "Value": "5100.00"
+                            }
+                          ]
+                        },
+                        {
+                          "Name": "Short Text",
+                          "List": [
+                            {
+                              "Value": "1 Printet pr\u00f8ver/samlevejledning/forsendelse"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "Name": "Total Amount",
+                "List": [
+                  {
+                    "Annotations": [],
+                    "Value": "16648.75"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "CreationTime": "2024-11-07T11:07:27.6394133+00:00",
+    "SourceFiles": [
+      {
+        "Id": ".blob.98a05575-d2ef-4216-ae3a-1760facb5a12",
+        "Name": "all_creative_invoice_31728.pdf"
+      }
+    ],
+    "RegistrationParameters": {
+      "EmailSubject": "Invoice All Creative A/S - <tim@zuru.com> - 31728",
+      "EmailDate": "2024-10-15",
+      "EmailSender": "finances@allcreative.dk",
+      "EmailAddressee": "invoices@zuruhq.com",
+      "App": "Mailbox Import"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "Version": "2.3",
+  "Transaction": {
+    "Id": "ed99baeb-34e2-4a89-972b-5a574324ea4a",
+    "SkillId": "f651e452-2f28-4c26-aace-d363934a442f",
+    "SkillName": "Zuru Multi Supplier Invoice Process skill",
+    "Documents": [
+      {
+        "Id": "bab7f205-f07a-43de-a651-474022ef3390",
+        "ExtractedData": {
+          "DocumentDefinition": {}
+        }
+      }
+    ]
+  }
+}

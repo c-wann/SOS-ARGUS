@@ -1,0 +1,161 @@
+{
+  "Version": "2.3",
+  "Transaction": {
+    "Id": "06eab3e7-9591-45f4-8711-8666cc154b78",
+    "SkillId": "f651e452-2f28-4c26-aace-d363934a442f",
+    "SkillName": "Zuru Multi Supplier Invoice Process skill",
+    "Documents": [
+      {
+        "Id": "7bc74d6b-aedc-4ed5-8c08-53f11b0c3f66",
+        "ExtractedData": {
+          "DocumentDefinition": {
+            "RootConcept": {
+              "Id": "root",
+              "Name": "European Invoice",
+              "Fields": [
+                {
+                  "Id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_21",
+                  "Name": "Business Unit",
+                  "Type": "Concept",
+                  "ValueConcepts": [],
+                  "Cardinality": {
+                    "Min": 0,
+                    "Max": 1
+                  }
+                },
+                {
+                  "Id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_41",
+                  "Name": "Currency",
+                  "Type": "String",
+                  "Cardinality": {
+                    "Min": 0,
+                    "Max": 1
+                  }
+                },
+                {
+                  "Id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_36",
+                  "Name": "External Service Number",
+                  "Type": "String",
+                  "Cardinality": {
+                    "Min": 0,
+                    "Max": 1
+                  }
+                },
+                {
+                  "Id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_37",
+                  "Name": "Invoice Date",
+                  "Type": "ISODate",
+                  "Cardinality": {
+                    "Min": 0,
+                    "Max": 1
+                  }
+                },
+                {
+                  "Id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53",
+                  "Name": "Invoice Line",
+                  "Type": "Concept",
+                  "ValueConcepts": [],
+                  "Cardinality": {
+                    "Min": 0,
+                    "Max": -1
+                  }
+                },
+                {
+                  "Id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_40",
+                  "Name": "Total Amount",
+                  "Type": "Decimal",
+                  "Cardinality": {
+                    "Min": 0,
+                    "Max": 1
+                  }
+                },
+                {
+                  "Id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_22",
+                  "Name": "Vendor",
+                  "Type": "Concept",
+                  "ValueConcepts": [],
+                  "Cardinality": {
+                    "Min": 0,
+                    "Max": 1
+                  }
+                }
+              ]
+            },
+            "RootObject": {
+              "Id": "root",
+              "Concept": "European Invoice",
+              "Fields": [
+                {
+                  "Name": "Business Unit",
+                  "List": [
+                    {
+                      "Id": "00027f86-072e-f458-0100-4358965fd02e",
+                      "Annotations": [],
+                      "Value": {
+                        "Id": "00027f86-072e-f458-0100-4358965fd02e",
+                        "Fields": [
+                          {
+                            "Name": "Company Name",
+                            "List": [
+                              {
+                                "Id": "00027f8d-072e-f47b-0100-a6ecd9046fb3",
+                                "Annotations": [],
+                                "Value": "RHENUS LOGISTICS FRANCE"
+                              }
+                            ]
+                          },
+                          {
+                            "Name": "Entity Code",
+                            "List": []
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Name": "Currency",
+                  "List": [
+                    {
+                      "Id": "00027f79-072e-f418-0100-da3187aa52e3",
+                      "Annotations": [],
+                      "Value": "EUR"
+                    }
+                  ]
+                },
+                {
+                  "Name": "External Service Number",
+                  "List": []
+                },
+                {
+                  "Name": "Invoice Date",
+                  "List": [
+                    {
+                      "Id": "00027f6d-072e-f3c9-0100-b3daca30583a",
+                      "Annotations": [],
+                      "Value": "2024-10-31"
+                    }
+                  ]
+                },
+                {
+                  "Name": "Invoice Line",
+                  "List": [
+                    {
+                      "Value": {
+                        "Fields": [
+                          {
+                            "Name": "Short Text "
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}

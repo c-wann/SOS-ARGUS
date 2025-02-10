@@ -39,7 +39,7 @@ var sanitizedTimestamp = replace(replace(timestamp, '-', ''), ':', '')
 
 // Define common tags  
 var commonTags = {  
-  solution: 'ARGUS-1.0'    
+  solution: 'SOS-ARGUS-1.0'    
 }
 
 // Define the storage account
@@ -390,7 +390,7 @@ resource blobConnection 'Microsoft.Web/connections@2018-07-01-preview' = {
 }
  
 resource logicapp 'Microsoft.Logic/workflows@2019-05-01' = {
-  name: 'logicAppName'
+  name: 'sos-argus-la-dev-01'
   location: location
   dependsOn: [
     blobConnection

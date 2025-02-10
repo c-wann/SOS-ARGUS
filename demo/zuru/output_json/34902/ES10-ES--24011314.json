@@ -1,0 +1,210 @@
+{
+  "Version": "2.3",
+  "Transaction": {
+    "Id": "e07c5d84-cc31-413b-8e12-cc5901af7f02",
+    "SkillId": "f651e452-2f28-4c26-aace-d363934a442f",
+    "SkillName": "Zuru Multi Supplier Invoice Process skill",
+    "Documents": [
+      {
+        "Id": "a630ee7d-c867-47f2-9392-afbdc77552a4",
+        "ExtractedData": {
+          "DocumentDefinition": {
+            "RootConcept": {
+              "Id": "root",
+              "Name": "European Invoice",
+              "Fields": [
+                {
+                  "Id": "business_unit",
+                  "Name": "Business Unit",
+                  "Type": "Concept",
+                  "Fields": [
+                    {
+                      "Id": "company_name",
+                      "Name": "Company Name",
+                      "Type": "String",
+                      "Value": "INTERSERVIS VALENCIA"
+                    },
+                    {
+                      "Id": "entity_code",
+                      "Name": "Entity Code",
+                      "Type": "String",
+                      "Value": "B-96158654"
+                    }
+                  ]
+                },
+                {
+                  "Id": "vendor",
+                  "Name": "Vendor",
+                  "Type": "Concept",
+                  "Fields": [
+                    {
+                      "Id": "vendor_name",
+                      "Name": "Vendor Name",
+                      "Type": "String",
+                      "Value": "ZURU SPAIN, S.L."
+                    },
+                    {
+                      "Id": "vendor_address",
+                      "Name": "Vendor Address",
+                      "Type": "String",
+                      "Value": "AVDA. DOCTOR ARCE, 14, 28022 MADRID, ESPA\u00d1A"
+                    },
+                    {
+                      "Id": "vendor_tax_id",
+                      "Name": "Vendor Tax ID",
+                      "Type": "String",
+                      "Value": "B67994095"
+                    }
+                  ]
+                },
+                {
+                  "Id": "document_info",
+                  "Name": "Document Information",
+                  "Type": "Concept",
+                  "Fields": [
+                    {
+                      "Id": "invoice_number",
+                      "Name": "Invoice Number",
+                      "Type": "String",
+                      "Value": "24011314"
+                    },
+                    {
+                      "Id": "invoice_date",
+                      "Name": "Invoice Date",
+                      "Type": "ISODate",
+                      "Value": "2024-10-31"
+                    },
+                    {
+                      "Id": "reference",
+                      "Name": "Client Reference",
+                      "Type": "String",
+                      "Value": "ALTEA FERIA"
+                    }
+                  ]
+                },
+                {
+                  "Id": "invoice_lines",
+                  "Name": "Invoice Lines",
+                  "Type": "Concept",
+                  "Fields": [
+                    {
+                      "Id": "line_1",
+                      "Name": "Line 1",
+                      "Fields": [
+                        {
+                          "Id": "description",
+                          "Name": "Description",
+                          "Type": "String",
+                          "Value": "ALMACENAJE SEGURO ALMACENAJE"
+                        },
+                        {
+                          "Id": "date_range",
+                          "Name": "Date Range",
+                          "Type": "String",
+                          "Value": "1/10 A 31/10"
+                        },
+                        {
+                          "Id": "amount",
+                          "Name": "Amount",
+                          "Type": "Decimal",
+                          "Value": "141.73"
+                        }
+                      ]
+                    },
+                    {
+                      "Id": "line_total",
+                      "Name": "Line Total",
+                      "Fields": [
+                        {
+                          "Id": "base_amount",
+                          "Name": "Base Amount",
+                          "Type": "Decimal",
+                          "Value": "153.07"
+                        },
+                        {
+                          "Id": "currency",
+                          "Name": "Currency",
+                          "Type": "String",
+                          "Value": "EUR"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "Id": "totals",
+                  "Name": "Totals",
+                  "Type": "Concept",
+                  "Fields": [
+                    {
+                      "Id": "base_taxable_amount",
+                      "Name": "Base Taxable Amount",
+                      "Type": "Decimal",
+                      "Value": "153.07"
+                    },
+                    {
+                      "Id": "base_exempt_amount",
+                      "Name": "Base Exempt Amount",
+                      "Type": "Decimal",
+                      "Value": "0.00"
+                    },
+                    {
+                      "Id": "vat_amount",
+                      "Name": "VAT Amount",
+                      "Type": "Decimal",
+                      "Value": "32.14"
+                    },
+                    {
+                      "Id": "total_amount",
+                      "Name": "Total Amount",
+                      "Type": "Decimal",
+                      "Value": "185.21"
+                    }
+                  ]
+                },
+                {
+                  "Id": "payment_terms",
+                  "Name": "Payment Terms",
+                  "Type": "Concept",
+                  "Fields": [
+                    {
+                      "Id": "payment_method",
+                      "Name": "Payment Method",
+                      "Type": "String",
+                      "Value": "TRANSFERENCIA 30 DIAS"
+                    },
+                    {
+                      "Id": "due_date",
+                      "Name": "Due Date",
+                      "Type": "ISODate",
+                      "Value": "2024-11-30"
+                    },
+                    {
+                      "Id": "bank_details",
+                      "Name": "Bank Details",
+                      "Type": "String",
+                      "Value": "CAJAMAR ES22 3058 7024 1027 2010 1147 BIC CCRIES2AXXX"
+                    }
+                  ]
+                },
+                {
+                  "Id": "observations",
+                  "Name": "Observations",
+                  "Type": "String",
+                  "Value": "N\u00ba Prefactura 27418"
+                }
+              ]
+            }
+          },
+          "Pages": [
+            {
+              "Id": "page_1",
+              "SourceFile": "invoice.pdf",
+              "SourceImagePageIndex": 0
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
